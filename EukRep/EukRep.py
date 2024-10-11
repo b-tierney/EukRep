@@ -11,7 +11,7 @@ import warnings
 from argparse import RawTextHelpFormatter
 from kpal.klib import Profile
 from numpy import array
-from sklearn import svm
+from sklearn.svm import SVC
 from Bio import SeqIO
 from io import StringIO
 from random import randint
